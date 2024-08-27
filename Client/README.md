@@ -1,18 +1,24 @@
-## Getting Started
+# Client
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Code for the Client of our project.
 
-## Folder Structure
+## Execution
 
-The workspace contains two folders by default, where:
+When you start the Client, a panel will open to enter the IP and port values.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+You will be able to send and view all messages sent by clients.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+For client execution:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+java -jar Client.jar
+```
+Or
 
-## Dependency Management
+```bash
+java --enable-preview -jar Client.jar
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Author
+
+[@AndresMaldonado200338](https://github.com/AndresMaldonado200338)
